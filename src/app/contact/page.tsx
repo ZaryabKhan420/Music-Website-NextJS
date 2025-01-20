@@ -1,6 +1,7 @@
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
-const page = () => {
+
+const Page = () => {
   return (
     <div className="min-h-screen bg-slate-900 py-12 pt-36 text-gray-400">
       <Meteors number={20} />
@@ -10,9 +11,9 @@ const page = () => {
             Contact Us
           </h1>
           <p className="mx-8 text-center text-sm">
-            We're here to help with any questions about our courses, programs,
-            or events. Reach out and let us know how we can assist you in your
-            musical journey.
+            We&apos;re here to help with any questions about our courses,
+            programs, or events. Reach out and let us know how we can assist you
+            in your musical journey.
           </p>
           <input
             type="email"
@@ -34,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
